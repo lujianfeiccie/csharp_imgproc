@@ -1,17 +1,8 @@
-C:\Documents and Settings\Administrator\桌面\项目（图片拉伸和缩小）\WFImageFlax\WFImageFlax\obj\Debug\WFImageFlax.exe
-C:\Documents and Settings\Administrator\桌面\项目（图片拉伸和缩小）\WFImageFlax\WFImageFlax\obj\Debug\WFImageFlax.pdb
-C:\Documents and Settings\Administrator\桌面\项目（图片拉伸和缩小）\WFImageFlax\WFImageFlax\bin\Debug\WFImageFlax.exe
-C:\Documents and Settings\Administrator\桌面\项目（图片拉伸和缩小）\WFImageFlax\WFImageFlax\bin\Debug\WFImageFlax.pdb
-C:\Documents and Settings\Administrator\桌面\项目（图片拉伸和缩小）\WFImageFlax\WFImageFlax\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\Administrator\桌面\项目（图片拉伸和缩小）\WFImageFlax\WFImageFlax\obj\Debug\WFImageFlax.FmFlax.resources
-C:\Documents and Settings\Administrator\桌面\项目（图片拉伸和缩小）\WFImageFlax\WFImageFlax\obj\Debug\WFImageFlax.Properties.Resources.resources
-C:\Documents and Settings\Administrator\桌面\项目（图片拉伸和缩小）\WFImageFlax\WFImageFlax\obj\Debug\WFImageFlax.csproj.GenerateResource.Cache
-C:\Documents and Settings\Administrator\桌面\项目（图片拉伸和缩小）\WFImageFlax\WFImageFlax\obj\Debug\WFImageFlax.FormTest.resources
-F:\workspace\study\WFImageFlax\WFImageFlax\obj\Debug\WFImageFlax.exe
-F:\workspace\study\WFImageFlax\WFImageFlax\obj\Debug\WFImageFlax.pdb
+F:\workspace\study\WFImageFlax\WFImageFlax\bin\Debug\WFImageFlax.exe
+F:\workspace\study\WFImageFlax\WFImageFlax\bin\Debug\WFImageFlax.pdb
 F:\workspace\study\WFImageFlax\WFImageFlax\obj\Debug\ResolveAssemblyReference.cache
 F:\workspace\study\WFImageFlax\WFImageFlax\obj\Debug\WFImageFlax.FmFlax.resources
 F:\workspace\study\WFImageFlax\WFImageFlax\obj\Debug\WFImageFlax.Properties.Resources.resources
 F:\workspace\study\WFImageFlax\WFImageFlax\obj\Debug\WFImageFlax.csproj.GenerateResource.Cache
-F:\workspace\study\WFImageFlax\WFImageFlax\bin\Debug\WFImageFlax.exe
-F:\workspace\study\WFImageFlax\WFImageFlax\bin\Debug\WFImageFlax.pdb
+F:\workspace\study\WFImageFlax\WFImageFlax\obj\Debug\WFImageFlax.exe
+F:\workspace\study\WFImageFlax\WFImageFlax\obj\Debug\WFImageFlax.pdb

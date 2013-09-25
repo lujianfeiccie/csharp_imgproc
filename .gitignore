@@ -1,6 +1,8 @@
 cdsearch/
 FileUpload/
 bin/
+obj/
+/obj
 *.[config]
 *.[sln]
 *.sln
