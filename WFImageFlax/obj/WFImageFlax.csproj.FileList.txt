@@ -1,0 +1,8 @@
+bin\Debug\WFImageFlax.exe
+bin\Debug\WFImageFlax.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WFImageFlax.FmFlax.resources
+obj\Debug\WFImageFlax.Properties.Resources.resources
+obj\Debug\WFImageFlax.csproj.GenerateResource.Cache
+obj\Debug\WFImageFlax.exe
+obj\Debug\WFImageFlax.pdb
