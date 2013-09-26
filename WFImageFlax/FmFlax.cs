@@ -12,6 +12,13 @@ namespace WFImageFlax
     {
         private string globalFilePath;
 
+        IniHelper mIniHelper = new IniHelper(System.IO.Directory.GetCurrentDirectory()
++"\\config.ini");
+
+        readonly string INI_FILE_OPEN = "INI_FILE_OPEN";
+        readonly string INI_FILE_SAVE = "INI_FILE_SAVE";
+        readonly string INI_NUMERIC_PERCENT = "INI_NUMERIC_PERCENT";
+
         public FmFlax()
         {
             InitializeComponent();
@@ -49,6 +56,7 @@ namespace WFImageFlax
                 saveFile(filename);
             }
             MessageBox.Show("已处理!");
+            saveData();
         }
 
         private void radioButton_CheckedChanged(object sender, EventArgs e)
@@ -79,6 +87,26 @@ namespace WFImageFlax
             this.numericPercent.Focus();
             openFileDialog1.Multiselect = true;
             openFileDialog1.Filter = "jpeg图片(*.jpg)|*.jpg|png图片(*.png)|*.png";
+            this.Closed += new EventHandler(FmFlax_Closed);
+
+            loadData();
+        }
+        void loadData()
+        {
+            openFileDialog1.InitialDirectory = mIniHelper.ReadValue("data", INI_FILE_OPEN);
+            numericPercent.Value = Convert.ToDecimal(mIniHelper.ReadValue("data",INI_NUMERIC_PERCENT));
+            txtDirectory.Text = mIniHelper.ReadValue("data", INI_FILE_SAVE);
+        }
+     
+        void FmFlax_Closed(object sender, EventArgs e)
+        {
+         
+        }
+        void saveData()
+        {
+            mIniHelper.Write("data", INI_FILE_OPEN, System.IO.Path.GetDirectoryName(openFileDialog1.FileName));
+            mIniHelper.Write("data", INI_FILE_SAVE, txtDirectory.Text);
+            mIniHelper.Write("data", INI_NUMERIC_PERCENT, numericPercent.Value.ToString());
         }
 
         private void 退出ToolStripMenuItem_Click(object sender, EventArgs e)

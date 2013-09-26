@@ -43,6 +43,7 @@
     <Compile Include="FmFlax.Designer.cs">
       <DependentUpon>FmFlax.cs</DependentUpon>
     </Compile>
+    <Compile Include="IniHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FmFlax.resx">
