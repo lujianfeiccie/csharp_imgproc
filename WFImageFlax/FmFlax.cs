@@ -78,6 +78,7 @@ namespace WFImageFlax
         {
             this.numericPercent.Focus();
             openFileDialog1.Multiselect = true;
+            openFileDialog1.Filter = "jpeg图片(*.jpg)|*.jpg|png图片(*.png)|*.png";
         }
 
         private void 退出ToolStripMenuItem_Click(object sender, EventArgs e)

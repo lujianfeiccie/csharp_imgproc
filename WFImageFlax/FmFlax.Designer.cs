@@ -66,7 +66,7 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            this.openFileDialog1.Filter = "pjpeg图片(*.jpg)|*.jpg";
+            this.openFileDialog1.Filter = "jpeg图片(*.jpg)png图片(*.png)|*.jpg";
             // 
             // txtFilePath
             // 
@@ -97,7 +97,6 @@
             this.label1.Size = new System.Drawing.Size(53, 12);
             this.label1.TabIndex = 2;
             this.label1.Text = "原始图片";
-         
             // 
             // btnSaveAs
             // 
